@@ -54,7 +54,12 @@ function checkAns(idx){
             setTimeout(levelUp,1000);
         }
     }else{
-        h2.innerText =`Game over! Press any key to start!`;
+        h2.innerHTML =`Game over! Your score was <b>${level}</b> <br> Press any key to start!`;
+        document.querySelector("body").style.backgroundColor = "red";
+        setTimeout(function(){
+            document.querySelector("body").style.backgroundColor = "white";
+        }, 150);
+        reset();
     }
 
 }
@@ -64,7 +69,6 @@ function btnPress(){
     userFlash(btn);
 
     userColor = btn.getAttribute("id");
-    console.log(userColor);
     userSeq.push(userColor);
     checkAns(userSeq.length-1); 
 }
@@ -74,7 +78,12 @@ for(btn of allBtns){
     btn.addEventListener("click",btnPress);
 }
 
-
+function reset(){
+    started = false;
+    gameSeq = [];
+    userSeq = [];
+    level = 0;
+}
 
 
 
