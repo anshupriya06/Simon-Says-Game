@@ -5,7 +5,7 @@ A fun and interactive **Simon Says** memory game built using HTML, CSS, and Java
 ## 📌 Features
 ✅ Dynamic level progression  
 ✅ Interactive UI with color flashes  
-✅ Keyboard start functionality  
+✅ Keyboard start functionality
 ✅ Game over animation & score display  
 ✅ Fully responsive design  
 
