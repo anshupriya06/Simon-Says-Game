@@ -7,7 +7,7 @@ A fun and interactive **Simon Says** memory game built using HTML, CSS, and Java
 ✅ Interactive UI with color flashes  
 ✅ Keyboard start functionality
 ✅ Game over animation & score display  
-✅ Fully responsive design  
+✅ Fully responsive design 
 
 ---
 
