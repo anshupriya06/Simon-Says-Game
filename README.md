@@ -16,7 +16,6 @@ A fun and interactive **Simon Says** memory game built using HTML, CSS, and Java
 - **CSS** - Styling the game elements
 - **JavaScript** - Implementing the game logic
 
-
 ---
 
 ## 🚀 How to Play
